@@ -1,0 +1,19 @@
+{
+  "name": "wba2funkbueschenfeld",
+  "version": "1.0.0",
+  "description": "WBA2 Projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld.git"
+  },
+  "author": "Andre Funk, Alina Bueschenfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld/issues"
+  },
+  "homepage": "https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld#readme"
+}
