@@ -13,4 +13,15 @@ fs.readFile(__dirname+"/staedte.json", function(err, data){
       if(i<(json_object.cities.length-1))
         console.log("----------------------");
     }
+
+
+    //sortieren
+    json_object.cities.sort(function (a, b) {
+            return b.population - a.population;
+        });
+
+        fs.writeFile(__dirname+"/staedte_sortiert.json",JSON.stringify(json_object.cities), function(err){
+            if(err) throw err;
+        });
+        console.log("Sortiert abgespeichert")
 });
