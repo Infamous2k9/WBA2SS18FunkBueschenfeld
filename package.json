@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld/issues"
   },
-  "homepage": "https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld#readme"
+  "homepage": "https://github.com/Infamous2k9/WBA2SS18FunkBueschenfeld#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
